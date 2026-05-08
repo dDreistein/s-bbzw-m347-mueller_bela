@@ -35,19 +35,23 @@ Antwort: dass die secrets auf der lokalen maschine bleiben
 
 Wie referenziert man eine Variable aus `.env` in `compose.yml`?
 
-Antwort:
+Antwort: 
+env_file:
+-   .env
+
+und dann die werte mit ${KEY} platzhaltern
 
 ---
 
 Was passiert, wenn eine Variable in `.env` fehlt, aber in `compose.yml` verwendet wird?
 
-Antwort:
+Antwort: sie kann nicht gelesen werden und es gibt einen fehler
 
 ---
 
 Was zeigt der Befehl `docker compose config`? Wann ist er nützlich?
 
-Antwort:
+Antwort: zeigt das compose.yml mit eingesetzten env variablen
 
 ---
 
@@ -55,13 +59,13 @@ Antwort:
 
 Warum wird `requirements.txt` in einem eigenen `COPY`-Schritt vor dem App-Code kopiert?
 
-Antwort:
+Antwort: da dieses erst die pip packages checkt welche tendenziell weniger changes haben.
 
 ---
 
 Was bewirkt `.dockerignore`? Welche Dateien sollten darin stehen?
 
-Antwort:
+Antwort: Es sorgt dafür das bestimmte files vom dockefile ignoriert werden. darin gehören files wie packages, welche im buildprozess generiert werden.
 
 ---
 
@@ -69,13 +73,13 @@ Antwort:
 
 Funktioniert `/db-check` nach Ihrer Konfigurationsanpassung?
 
-Antwort:
+Antwort: JA
 
 ---
 
 Was zeigt der Endpunkt `/db-check` an, wenn die Verbindung funktioniert?
 
-Antwort:
+Antwort: {"db":"connected"}
 
 ---
 
@@ -83,10 +87,10 @@ Antwort:
 
 Was war der wichtigste Schritt in dieser Woche?
 
-Antwort:
+Antwort: .env files erstellen
 
 ---
 
 Was ist noch unklar oder möchten Sie besser verstehen?
 
-Antwort:
+Antwort: -

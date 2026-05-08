@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="085b2cda-e80f-4265-8834-30c10623669b" name="Changes" comment="pw02">
-      <change afterPath="$PROJECT_DIR$/pw03/02_project/ticketboard/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pw03/02_project/ticketboard/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/pw03/02_project/ticketboard/app/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pw03/02_project/ticketboard/compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/pw03/02_project/ticketboard/compose.yml" afterDir="false" />
+    <list default="true" id="085b2cda-e80f-4265-8834-30c10623669b" name="Changes" comment="pw03">
       <change beforePath="$PROJECT_DIR$/pw03/02_project/ticketboard/docs/questions.md" beforeDir="false" afterPath="$PROJECT_DIR$/pw03/02_project/ticketboard/docs/questions.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -154,7 +150,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778244375116</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="pw03">
+      <option name="closed" value="true" />
+      <created>1778245988282</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1778245988282</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,7 +177,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="pw02" />
-    <option name="LAST_COMMIT_MESSAGE" value="pw02" />
+    <MESSAGE value="pw03" />
+    <option name="LAST_COMMIT_MESSAGE" value="pw03" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
