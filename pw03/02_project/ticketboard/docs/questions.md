@@ -9,25 +9,25 @@ Klasse: <Klasse>
 
 Welche Werte waren ursprünglich hardcoded in `compose.yml` und `app/main.py`?
 
-Antwort:
+Antwort: Alle env variabeln z.B. DATABASE_URL, POSTGRES_PASSWORD...
 
 ---
 
 Warum ist es ein Problem, Passwörter direkt in `compose.yml` einzutragen?
 
-Antwort:
+Antwort: Weil das compose.yml in die versionskontrolle kommt und so auch die passwörter öffentlich sind.
 
 ---
 
 Was ist der Unterschied zwischen `.env` und `.env.example`?
 
-Antwort:
+Antwort: example enthält für private angaben nur platzhalter
 
 ---
 
 Warum muss `.env` in `.gitignore` eingetragen sein?
 
-Antwort:
+Antwort: dass die secrets auf der lokalen maschine bleiben
 
 ---
 
